@@ -12,13 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2021_01_16_112856) do
 
-  create_table "blogs", force: :cascade do |t|
-    t.string "Title"
-    t.text "Body"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "books", force: :cascade do |t|
     t.string "title"
     t.text "body"
